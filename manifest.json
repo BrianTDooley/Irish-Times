@@ -2,18 +2,14 @@
   "manifest_version" : 2,
   "name": "Irish Times Chrome Extension",
   "version": "0.1",
-
-  "description": "Keep up with the latest from Lifehacker.",
+  "description": "Extra functionality for the Irish Times website",
   "icons": { "16" : "images/icon.png",
- 			"48" : "images/48.png",
-			"128" : "images/128.png"},
-  "homepage_url": "http://irishtimes.com/",
-	"background": {
-    "page" : "background.html" },
-	"permissions": [ "tabs" ],
-	"browser_action": {
-    "default_icon": "images/icon.png", 
-    "default_title": "Irish Times",      
-    "default_popup": "popup.html"       
+      "48" : "images/48.png",
+      "128" : "images/128.png"},
+  "permissions": [ "tabs" ],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "Irish Times",
+    "default_popup": "popup.html"
   }
 }
